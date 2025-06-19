@@ -24,10 +24,7 @@ class MainActivity : AppCompatActivity() {
         val addToPlaylist : Button = findViewById(R.id.addToPlaylist)
         val playlistScreen : Button = findViewById(R.id.playlistScreen)
         val exitBtn : Button = findViewById(R.id.exitBtn)
-        val songTitle : EditText = findViewById(R.id.songTitle)
-        val artistsName : EditText = findViewById(R.id.artistsName)
-        val songRating : EditText = findViewById(R.id.songRating)
-        val userComments : EditText =findViewById(R.id.userComments)
+
 
         addToPlaylist.setOnClickListener {
 
