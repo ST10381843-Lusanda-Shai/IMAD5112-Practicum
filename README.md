@@ -10,7 +10,8 @@ https://github.com/ST10381843-Lusanda-Shai/IMAD5112-Practicum.git
 *The first  screenshots showcases the implimentation of my private variables, initializing my UI elements so that they can be displayed on my appications screen alongside the addtoplaylist button and the playlist screen button which will take the user to the next screen.
 ![image](https://github.com/user-attachments/assets/de85bc1f-6b68-4194-948e-4a2772649649)
 
-*
+*My second screenshot follows up with the description for my first screen and it includes my exit button function and it starts to showcase my addtoplaylist function which utilizes my song_playlist xml file which allows the user to enter information about the song they would like to add to their playlist. If they do not add any info they will be given a message which tell them to add inforamtion for any song they want to add to the playlist before going to the next screen.
+
 ![image](https://github.com/user-attachments/assets/7e49cb30-390b-4f0b-8453-0bb2f79dbb71)
 
 *
