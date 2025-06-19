@@ -6,30 +6,17 @@
     android:layout_height="match_parent">
 
     <EditText
-        android:id="@+id/userComments"
+        android:id="@+id/songTitle"
         android:layout_width="240dp"
         android:layout_height="60dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="164dp"
         android:ems="10"
-        android:hint="Your comments on the song"
+        android:hint="Enter the songs name"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/songRating" />
-
-    <EditText
-        android:id="@+id/songRating"
-        android:layout_width="240dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="32dp"
-        android:ems="10"
-        android:hint="Enter the songs rating"
-        android:inputType="text"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/artistsName" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/artistsName"
@@ -45,15 +32,29 @@
         app:layout_constraintTop_toBottomOf="@+id/songTitle" />
 
     <EditText
-        android:id="@+id/songTitle"
+        android:id="@+id/songRating"
         android:layout_width="240dp"
         android:layout_height="60dp"
-        android:layout_marginTop="164dp"
+        android:layout_marginTop="32dp"
         android:ems="10"
-        android:hint="Enter the songs name"
+        android:hint="Enter the songs rating"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/artistsName" />
+
+    <EditText
+        android:id="@+id/userComments"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Your comments on the song"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/songRating" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
