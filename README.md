@@ -42,12 +42,7 @@ https://github.com/ST10381843-Lusanda-Shai/IMAD5112-Practicum.git
 
 ![image](https://github.com/user-attachments/assets/612b9bfb-8a75-4e64-93ba-ad68ba606b6a)
 
-*
-
-
-![image](https://github.com/user-attachments/assets/977e7624-73a4-4bdb-9b9b-fcd79beb9a19)
-
-*
+*The eigth screenshot shows us my playlistreviewscreen which has the text view to display the users songs in the playlist alongside its informations, my display button to display the playlist, the avg rating button to calculate the average rating of all the songs and the back button to take the user back to the main screen.
 
 
 ![image](https://github.com/user-attachments/assets/e8267850-16e6-44d8-b05e-c26dca076089)
